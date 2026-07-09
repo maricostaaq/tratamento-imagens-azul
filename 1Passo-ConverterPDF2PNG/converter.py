@@ -15,7 +15,7 @@ OBS4: depois de executar, tem que excluir as imagens com nome de código estranh
 OBS5: Seu objetivo é deixar apenas as questões. Por isso abra cada uma das imagens, exclua as páginas de capa, proposta de redação e rascunho da redação e qualquer outra página que não tenha questões.
 """
 
-from pdf2image import convert_from_path
+from pdf2image import convert_from_path  # type: ignore
 import os
 
 arquivo = "enem-2019.pdf"
