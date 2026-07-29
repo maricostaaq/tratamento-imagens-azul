@@ -15,7 +15,7 @@ OBS4: tenha em mente desde já que você vai usar as imagens futuramente, então
 OBS5: execute o código, e abra as imagens para conferir se as bordas foram removidas corretamente. Se não, ajuste os valores de corte e execute novamente.
 """
 
-from PIL import Image
+from PIL import Image # type: ignore
 import os
 
 pasta_imagens = "imagens-convertidas"
